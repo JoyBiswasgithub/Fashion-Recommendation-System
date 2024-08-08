@@ -9,11 +9,7 @@ This project implements a fashion image recommendation system using a pre-traine
 - [Notebooks](#notebooks)
 - [Scripts](#scripts)
 - [Dataset](#dataset)
-- [Model Architecture](#model-architecture)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [License](#license)
+
 
 ## Project Overview
 
@@ -23,20 +19,21 @@ The Fashion Recommendation System recommends similar fashion images based on a u
 
 This repository contains the following Jupyter Notebooks:
 
-1. **`01_Data_Preparation.ipynb`**
+1. **`train.ipynb`**
    - Prepares and preprocesses the dataset. Includes data loading, transformation, and visualization of sample images.
-
-2. **`02_Feature_Extraction.ipynb`**
    - Extracts features from images using a pre-trained ResNet50 model. Saves the features and filenames to pickle files.
 
-3. **`03_Recommendation_System.ipynb`**
+2. **`app.py`**
    - Implements the recommendation system using k-NN. Loads the features, trains the k-NN model, and integrates it with a Streamlit app for interactive recommendations.
 
 ## Scripts
 
-### `feature_extraction.py`
+### `train.ipynb`
 
 Extracts features from images using a pre-trained ResNet50 model and saves them to pickle files.
+
+### `dataset`
+https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
 
 - **Dependencies**: TensorFlow, NumPy, Pillow, scikit-learn, pickle
 - **Usage**: 
