@@ -38,4 +38,4 @@ https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
 - **Dependencies**: TensorFlow, NumPy, Pillow, scikit-learn, pickle
 - **Usage**: 
   ```bash
-  python feature_extraction.py
+  python app.py
